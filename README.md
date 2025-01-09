@@ -7,37 +7,38 @@
 
 目標讓使用者可以輕鬆使用各類功能，管理者也可以用簡單的步驟修改上架的產品
 
-### 前端處理步驟
-
-cd進frontend資料夾
-
-    npm install
-    npm start
-
 ### 產品管理後端 API 環境需求
 
 Node.js  
 Docker  
 MongoDB  
 
-### 安裝步驟
+### 下載步驟
+    git clone https://github.com/andrew610-howhow/final_project.git
+    cd --/webfinal
+    
+### 前端處理
 
-1. Clone 專案
-2. 安裝依賴
-3. 環境設定  
+    cd webfinal-frontend\webfinal-frontend
+    npm install
+    npm start
 
-4.建立 .env 檔案在根目錄  
+### 後端處理
 
-加入以下內容：
+1.    cd webfinal-backend\final_project
+
+2.建立 .env 檔案在根目錄  
+
+並加入以下內容：
 
     MONGODB_URI=mongodb://localhost:27017/product-db
     PORT=7000
 
-5.啟動 MongoDB：
+3.啟動 MongoDB：
 
     docker run --name mongodb -d -p 27017:27017 mongo
 
-6.啟動服務：
+4.啟動服務：
 
     node import-data.js
     node server.js
