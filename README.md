@@ -1,11 +1,11 @@
 # final_project
 
-### 產品前端步驟
+### 前端處理步驟
 
 cd進frontend資料夾
 
-npm install
-npm start
+    npm install
+    npm start
 
 ### 產品管理後端 API 環境需求
 
@@ -23,17 +23,17 @@ MongoDB
 
 加入以下內容：
 
-MONGODB_URI=mongodb://localhost:27017/product-db
+    MONGODB_URI=mongodb://localhost:27017/product-db
 
 PORT=7000
 
 5.啟動 MongoDB：
 
-docker run --name mongodb -d -p 27017:27017 mongo
+    docker run --name mongodb -d -p 27017:27017 mongo
 
 6.啟動服務：
 
-node server.js
+    node server.js
 
 ### API 端點：
 
