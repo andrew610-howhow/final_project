@@ -117,7 +117,7 @@ DELETE /api/products/:id - 刪除商品
 ### API 預設運行在 http://localhost:7000
 
 ### REACT網站預設在http://localhost:3000
-如有占用問題須更改localhost，請至webfinal-backend/server.js將以下的host修改
+如有占用問題須更改localhost，請至webfinal-backend/server.js將以下程式的localhost修改
 
 
     // 設置 CORS
