@@ -45,17 +45,6 @@ MongoDB
     node import-data.js
     node server.js
 
-### API 端點：
-
-POST /api/products - 新增商品
-
-GET /api/products - 獲取所有商品
-
-GET /api/products/:id - 獲取單一商品
-
-PATCH /api/products/:id - 更新商品
-
-DELETE /api/products/:id - 刪除商品
 
 ## 技術選擇與理由
 
@@ -106,10 +95,23 @@ jsonCopy{
     
 }
 
+### API 端點：
+
+POST /api/products - 新增商品
+
+GET /api/products - 獲取所有商品
+
+GET /api/products/:id - 獲取單一商品
+
+PATCH /api/products/:id - 更新商品
+
+DELETE /api/products/:id - 刪除商品
+
+## 注意事項
+
 確保 Docker 已啟動
 
 確保 MongoDB 容器正在運行
-
 
 
 ### API 預設運行在 http://localhost:7000
