@@ -127,7 +127,7 @@ DELETE /api/products/:id - 刪除商品
       credentials: true  // 支援跨域的 cookie
     }));
 ### 架構圖與流程圖
-
+![Image text](https://github.com/andrew610-howhow/final_project/blob/8dadf34183dc240005bf9b7a1712822c12cc79aa/Diagram.png)
 ###
 ### FIGMA 連結
 https://reurl.cc/M6W1Km
