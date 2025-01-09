@@ -75,14 +75,15 @@ jsonCopy{
 
 確保 MongoDB 容器正在運行
 
-API 預設運行在 http://localhost:7000
-##
-REACT網站預設在http://localhost:3000
+## API 預設運行在 http://localhost:7000
+
+# REACT網站預設在http://localhost:3000
 如有占用問題更改localhost，請至webfinal-backend/server.js將以下的host修改
+{
 // 設置 CORS
 app.use(cors({
   origin: 'http://localhost:3000',  // 確保這個端口是前端應用運行的端口
   methods: 'GET,POST,PATCH,DELETE',  // 支援的方法
   credentials: true  // 支援跨域的 cookie
 }));
-
+}
