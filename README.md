@@ -25,7 +25,9 @@ MongoDB
 
 ### 後端處理
 
-1.    cd webfinal-backend\final_project
+1.cd進資料夾
+
+    cd webfinal-backend\final_project
 
 2.建立 .env 檔案在根目錄  
 
@@ -54,6 +56,29 @@ GET /api/products/:id - 獲取單一商品
 PATCH /api/products/:id - 更新商品
 
 DELETE /api/products/:id - 刪除商品
+
+## 技術選用
+
+- ### React.js
+    組件化開發: 讓代碼可重用，開發效率高。
+    虛擬DOM: 提高性能，減少重渲染。
+    強大生態系統: 有大量工具與庫支持。
+
+- ### JavaScript
+    - 
+    - 
+    - 
+- ### HTML/CSS、、
+    - 
+    - 
+    - 
+    
+- ### MongoDB
+    - 
+    - 
+    - 
+### 後端
+
 
 ### 資料結構
 
