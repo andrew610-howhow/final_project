@@ -24,15 +24,14 @@ MongoDB
 加入以下內容：
 
     MONGODB_URI=mongodb://localhost:27017/product-db
-
-PORT=7000
+    PORT=7000
 
 5.啟動 MongoDB：
 
     docker run --name mongodb -d -p 27017:27017 mongo
 
 6.啟動服務：
-
+    node import-data.js
     node server.js
 
 ### API 端點：
@@ -75,10 +74,12 @@ jsonCopy{
 
 確保 MongoDB 容器正在運行
 
+
+
 ### API 預設運行在 http://localhost:7000
 
 ### REACT網站預設在http://localhost:3000
-如有占用問題更改localhost，請至webfinal-backend/server.js將以下的host修改
+如有占用問題須更改localhost，請至webfinal-backend/server.js將以下的host修改
 
 
     // 設置 CORS
