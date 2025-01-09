@@ -79,7 +79,7 @@ jsonCopy{
 
 ### REACT網站預設在http://localhost:3000
 如有占用問題更改localhost，請至webfinal-backend/server.js將以下的host修改
-Copy{
+
 
     // 設置 CORS
     app.use(cors({
@@ -88,4 +88,4 @@ Copy{
       credentials: true  // 支援跨域的 cookie
     }));
 
-}
+
