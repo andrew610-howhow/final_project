@@ -1,19 +1,19 @@
 # final_project
 
-產品前端步驟
+### 產品前端步驟
 
 cd進frontend資料夾
 
 npm install
 npm start
 
-產品管理後端 API 環境需求
+### 產品管理後端 API 環境需求
 
 Node.js  
 Docker  
 MongoDB  
 
-安裝步驟
+### 安裝步驟
 
 1. Clone 專案
 2. 安裝依賴
@@ -35,7 +35,7 @@ docker run --name mongodb -d -p 27017:27017 mongo
 
 node server.js
 
-API 端點：
+### API 端點：
 
 POST /api/products - 新增商品
 
@@ -47,7 +47,7 @@ PATCH /api/products/:id - 更新商品
 
 DELETE /api/products/:id - 刪除商品
 
-資料結構
+### 資料結構
 
 商品資料結構：
 
@@ -75,15 +75,16 @@ jsonCopy{
 
 確保 MongoDB 容器正在運行
 
-## API 預設運行在 http://localhost:7000
+### API 預設運行在 http://localhost:7000
 
-# REACT網站預設在http://localhost:3000
+### REACT網站預設在http://localhost:3000
 如有占用問題更改localhost，請至webfinal-backend/server.js將以下的host修改
-{
+jsonCopy{
 // 設置 CORS
 app.use(cors({
   origin: 'http://localhost:3000',  // 確保這個端口是前端應用運行的端口
   methods: 'GET,POST,PATCH,DELETE',  // 支援的方法
   credentials: true  // 支援跨域的 cookie
 }));
+
 }
